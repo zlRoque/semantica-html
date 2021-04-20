@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas</title>
+   
+    <style>
+     col{
+        background-color: aqua;
+    }
+</style>
+</head>
+
+<body>
+  
+  
+    <!-- las tablas sirven para mostrar contenido tabulado -->
+
+    <!-- table para que encierre la tabla 
+    tr table row que construye una fila
+    td table data etiqueta que construye una celda-->
+    <h1>table</h1>
+    
+    <table>
+        <!-- titulo de la tabla -->
+        <caption>Clases</caption>
+        <colgroup>
+            <col>
+            <col>
+            <col>
+            <col>
+        </colgroup>
+        <!-- thead para cada uno de las celdas cabecera -->
+        <thead>
+            <tr>
+                <th>L</th>
+                <th>M</th>
+                <th>M</th>
+                <th>J</th>
+                <th>V</th>
+            </tr>
+        </thead>
+        <!-- PARA LA Semantica correcta de una tabla utilizamos el tbody -->
+        <tbody>
+        <tr>
+            <td>1 </td>
+            <td>matematicas </td>
+            <td>matematicas</td>
+            <td>matematicas</td>
+            <td>etica</td>
+        </tr>
+        <tr>
+            <td>2 </td>
+            <td colspan="5">matematicas </td>
+            <td>matematicas</td>
+            <td>matematicas</td>
+            <td>etica</td>
+        </tr>
+        <tr>
+            <td>3 </td>
+            <td>matematicas </td>
+            <td>matematicas</td>
+            <td>matematicas</td>
+            <td>etica</td>
+        </tr>
+        <tr>
+            <td>4 </td>
+            <td>matematicas </td>
+            <td>matematicas</td>
+            <td>matematicas</td>
+            <td>etica</td>
+        </tr>
+
+        <tr>
+            <td>5 </td>
+            <td>matematicas </td>
+            <td>matematicas</td>
+            <td>matematicas</td>
+            <td>etica</td>
+        </tr>
+     </tbody>
+     <!-- pie de tabla tfoot -->
+     <tfoot>
+         <tr>
+             <td colspan="5"> total de Asignaturas </td>
+             <td colspan="5">10</td>
+         </tr>
+     </tfoot>
+    </table>
+  
+<!-- para ocupar toda las celdas ocupamos 2 atributos, colspan  -->
+<!-- para seleccionar columnas colgroup -->
+</body>
+
+</html>

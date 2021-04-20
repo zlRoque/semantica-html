@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tipos de input</title>
+</head>
+
+<body>
+    <!-- es una mezcla de los radio y checkbox -->
+    <!-- select de forma simple -->
+    <form action="">
+        <select name="lenguajes" multiple id="">
+            <option value="html">HTML</option>
+            <option value="css">css</option>
+            <option value="javascript">javascript</option>
+        </select>
+    </form>
+<!-- si tenemos muchas opciones podemos ordenarlas por categorias con la etique opgroup, con la etiqueta label le asignamos el nombre a esa categoria -->
+<form action="">
+    <select name="pets" id="">
+        <optgroup label="cuatro patas">
+        <option value="perro">perro</option>
+        <option value="gato">gato</option>
+        <option value="hamster">hamster</option>
+        <option value="conejo">conejo</option>
+    </optgroup>
+    <optgroup label="aves">
+        <option value="paloma">palomas</option>
+        <option value="loro">loro</option>
+        <option value="canario">canario</option>
+    </optgroup>
+    </select>
+</form>
+
+</body>
+
+</html>
